@@ -1,0 +1,122 @@
+:root {
+    --primary-color: #05253A;
+    --secondary-color: #113469;
+    --tertiary-color: #52a8ea;
+    font-size: 16px;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: var(--primary-color);
+    width: 540px;
+    height: 370px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.container > .login-form-container {
+    background-color: var(--secondary-color);
+    width: 35%;
+    height: 85%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+img {
+    width: 58%;
+}
+
+.login-slogan-title {
+    font-size: 0.5rem;
+    font-weight: 600;
+}
+
+.login-slogan {
+    font-size: 0.5rem;
+    font-weight: 400;
+    color: rgb(152, 152, 152);
+}
+
+.login-form-heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form-heading > span{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.login-form-subtitle {
+    font-size: 0.5rem;
+    color: rgb(152, 152, 152);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-fields {
+    height: 20px;
+    text-align: center;
+    font-size: 0.7rem;
+    background-color: var(--secondary-color);
+    border: 1.5px solid var(--tertiary-color);
+    border-radius: 6px;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 0.6rem;
+}
+
+.checkbox {
+    display: flex;
+    gap: 10px;
+}
+
+.checkbox > label {
+    font-size: 0.5rem;
+}
+
+.checkbox > input {
+    background-color: var(--secondary-color);
+}
+
+.submit-button {
+    height: 25px;
+    font-size: 0.6rem;
+    background-color: var(--tertiary-color);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.register-container {
+    font-size: 0.5rem;
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.register-container > a {
+    color: aqua;
+}
